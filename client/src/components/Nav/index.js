@@ -1,5 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { NavLink, Link } from "react-router-dom"
+import "./style.css";
 
 function Nav() {
   return (
@@ -7,11 +8,13 @@ function Nav() {
       <a className="navbar-brand" href="/">Google Books</a>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="nav-item active">
-            <Link to="/search" className="nav-link">Search</Link>
+          <li className="nav-item ml-2 mr-3">
+            <NavLink strict to="/search" className="normal"
+            exact={true} activeClassName='active'>Search</NavLink>
           </li>
           <li className="nav-item">
-          <Link to="/saved" className="nav-link">Saved</Link>
+            <NavLink strict to="/saved" className="normal"
+            activeClassName='active'>Saved</NavLink>
           </li>
         </ul>
       </div>

@@ -1,0 +1,8 @@
+.normal {
+  color: rgb(236, 205, 205);
+}
+
+.active {
+  color: white;
+  font-size: bold;
+}

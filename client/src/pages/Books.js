@@ -87,13 +87,6 @@ class Books extends Component {
     this.setState({
       title: bk.title,
     })
-    //history.push("/book/detail/:bk._id");
-   // "/book/detail/:id"
-    
-    // <Link to={"/books/detail/" + this.state.books[id]}></Link>
-    // API.deleteBook(id)
-    //   .then(res => console.log(res))
-    //   .catch(err => console.log(err));
   };
 
 
