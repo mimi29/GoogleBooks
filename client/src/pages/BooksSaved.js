@@ -43,11 +43,7 @@ class BooksSaved extends Component {
     API.detailBook(id)
       .then(res =>console.log(res))
       .catch(err =>console.log(err));
-    // API.deleteBook(id)
-    //   .then(res => console.log(res))
-    //   .catch(err => console.log(err));
   };
-
 
   handleInputChange = event => {
     const { name, value } = event.target;

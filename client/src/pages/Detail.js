@@ -17,7 +17,6 @@ class Detail extends Component {
   }
 
   render() {
-    console.log("*detail*")
     return (
       <Container fluid>
         <Row>
